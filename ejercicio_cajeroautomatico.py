@@ -1,4 +1,4 @@
-class CajeroAutomatico:
+class Cajero:
     def __init__(self):
         self.saldo = 0
         
@@ -48,6 +48,6 @@ class CajeroAutomatico:
                 print('\n opcion incorrecta vuelva a intentarlo')
 
 
-cajero = CajeroAutomatico()
+cajero = Cajero()
 
 cajero.iniciar()
